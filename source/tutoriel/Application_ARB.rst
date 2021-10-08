@@ -41,7 +41,6 @@ Puis lancer l’application:
 
 
 .. warning::
-
     N’oubliez pas de libérer les ressources réservés (nœud de calcul) à la fin du calcul :
 
 .. code-block:: bash
