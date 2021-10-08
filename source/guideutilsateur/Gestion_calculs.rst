@@ -30,7 +30,9 @@ Liste des calculs en attente et en cours.
     squeue -u$USER
 
 Annuler un calcul en attente ou arrêterun calcul en cours.
+
 .. code-block:: bash
+
     scancel <job_id>
 
 Vérifier le statut d’un calcul individuel (y compris les calculs échoués ou achevés).
@@ -99,9 +101,9 @@ Pour soumettre ce job à l'ordonnanceur, nous utilisons la commande ``sbatch``.
 
 .. code-block:: bash  
 
-    $ sbatch script.sl
+        $ sbatch script.sl
 
-    Submitted batch job 36855
+        Submitted batch job 36855
 
 Pour vérifier l'état de notre travail, nous vérifions la file d'attente en utilisant la commande ``squeue -u yourUsername``.
 
@@ -157,50 +159,51 @@ Exemple de script java run.sl :
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code-block:: bash 
-    #!/bin/bash
 
-    #SBATCH -J Java
-    #SBATCH --partition=mediumq
+        #!/bin/bash
 
-    #SBATCH --time=0-36:00:00
+        #SBATCH -J Java
+        #SBATCH --partition=mediumq
 
-    #SBATCH --mem=32G
+        #SBATCH --time=0-36:00:00
 
-    #SBATCH -o %N.%j.%a.out
-    #SBATCH -e %N.%j.%a.err
+        #SBATCH --mem=32G
 
-    echo "Compiling "
+        #SBATCH -o %N.%j.%a.out
+        #SBATCH -e %N.%j.%a.err
 
-    javac TestHpc.java
+        echo "Compiling "
 
-    echo "Running "
+        javac TestHpc.java
 
-    java TestHpc
-    echo "Done"
+        echo "Running "
+
+        java TestHpc
+        echo "Done"
 
 Example de Script python run.sl:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .. code-block:: bash 
 
-    #!/bin/bash
+        #!/bin/bash
 
-    #SBATCH --job-name=myPythonjob
+        #SBATCH --job-name=myPythonjob
 
-    #SBATCH --partition=defq #partition de test limitée a 2h, changer à shortq mediumq ou longq selon durée estimée
+        #SBATCH --partition=defq #partition de test limitée a 2h, changer à shortq mediumq ou longq selon durée estimée
 
-    #SBATCH -o %x-%j.out #messages de log
+        #SBATCH -o %x-%j.out #messages de log
 
-    #SBATCH -e %x-%j.err #messages d'erreurs
+        #SBATCH -e %x-%j.err #messages d'erreurs
 
-    
 
-    echo "Running "
 
-    python testpython.py
+        echo "Running "
 
-    
+        python testpython.py
 
-    echo "Done"
+
+
+        echo "Done"
 
 Puis le lancer avec ``sbatch run.sl``
 
