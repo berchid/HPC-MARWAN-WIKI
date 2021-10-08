@@ -3,7 +3,9 @@ L'application ARB
 
 Vu le fait que l’application ARB fonctionne en mode graphique, on vous demande de lancer l’application dans un nœud de calcul libre, et non pas au niveau de la machine login login-hpc.marwan.ma, en exécutant les étapes suivantes :
 
-  .. image:: /figures/application-arb/etape_de_lancement_de_arb.png
+.. image:: /source/figures/application-arb/etape_de_lancement_de_arb.png
+   :width: 800
+ 
 
 Allocation de ressource:  allocation de nœud de calcul libre pour une durée de 2 heure par défaut, vous pouvez la changer en spécifiant la partition avec l’option « -p »  (pour plus de détails sur les partitions voir le lien `https://slurm.schedmd.com/salloc.html <https://slurm.schedmd.com/salloc.htmlL>`_) :
 
@@ -34,7 +36,9 @@ Puis lancer l’application:
     $arb
 
 
-.. image:: /figures/application-arb/ARB_interface.png 
+.. image:: /figures/application-arb/ARB_interface.png
+   :width: 800
+
 
 .. warning::
 
