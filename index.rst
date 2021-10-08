@@ -13,5 +13,5 @@ Table of Contents
 .. toctree::
    :maxdepth: 2
       
-   Guide utilisateur <guideutilsateur/indexguide.rst>
-   Tutoriel <tutoriel/tuto.rst>
+   Guide utilisateur <source/guideutilsateur/indexguide.rst>
+   Tutoriel <source/tutoriel/tuto.rst>
