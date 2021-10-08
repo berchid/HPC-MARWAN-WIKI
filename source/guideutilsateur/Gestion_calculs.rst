@@ -57,7 +57,8 @@ Afficher les informations sur les nœuds et les partitions de Slurm.
 
     sinfo [OPTIONS...] : pour visualiser les nœuds hors ligne (sinfo –R).
 
-.. image:: /figures/img_gestioncalcul/sinfo.png
+.. image:: /source/figures/img_gestioncalcul/sinfo.png
+      :width: 800
 
 
 Exécution d'un calcul batch :
