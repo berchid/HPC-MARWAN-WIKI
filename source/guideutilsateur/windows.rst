@@ -13,7 +13,7 @@ Installer un client ssh ( Mobaxterm ou Putty ) et un client scp (Winscp, Filezil
 
 .. image:: /source/figures/img_guideutilisateur/access_ssh.png
 
-.. image:: /sourcefigures/img_guideutilisateur/Mobaxterm.png
+.. image:: /source/figures/img_guideutilisateur/Mobaxterm.png
 
 
 #. Transfert de fichiers (scp) avec Mobaxterm :
