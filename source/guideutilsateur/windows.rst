@@ -11,25 +11,25 @@ Installer un client ssh ( Mobaxterm ou Putty ) et un client scp (Winscp, Filezil
     
 #. Acces ssh avec MobaXterm
 
-    .. image:: /figures/img_guideutilisateur/access_ssh.png
+.. image:: /source/figures/img_guideutilisateur/access_ssh.png
 
-    .. image:: /figures/img_guideutilisateur/Mobaxterm.png
+.. image:: /sourcefigures/img_guideutilisateur/Mobaxterm.png
 
 
 #. Transfert de fichiers (scp) avec Mobaxterm :
 
     - Transfert de fichiers/dossiers de la machine de l’utilisateur vers le dossier personnel sur HPC
 
-    .. image:: /figures/img_guideutilisateur/uploadfichier.png
+.. image:: /source/figures/img_guideutilisateur/uploadfichier.png
 
 
     - Transfert de fichiers/dossiers du dossier personnel sur HPC vers la machine de l’utilisateur
 
-    .. image:: /figures/img_guideutilisateur/downloadfichier.png
+.. image:: /source/figuresimg_guideutilisateur/downloadfichier.png
 
 
     - Changement de dossier courant (taper /data/<username>pour accéder au dossier de données et effectuer les transferts)
 
-    .. image:: /figures/img_guideutilisateur/Changementdossier.png
+.. image:: /source/figures/figures/img_guideutilisateur/Changementdossier.png
  
 
