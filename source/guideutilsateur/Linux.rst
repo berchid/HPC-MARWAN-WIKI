@@ -29,7 +29,7 @@ Ou utiliser un client SCP graphique( exemple Filezilla )Commande d’installatio
 .. code-block:: bash
 
     $sudo apt install filezilla
-
-    .. image:: /figures/img_guideutilisateur/fiz.jpg
-
+    
+.. image:: /source/figures/img_guideutilisateur/fiz.jpg
+  :width: 400
  
