@@ -56,12 +56,10 @@ Vous pouvez également décharger / supprimer un module que vous avez déjà cha
 
 Collections des modules :
 **************************
+
 Les utilisateurs peuvent créer des collections des modules, qui contiennent la liste des modules à charger chaque fois que vous vous connectez au cluster.
-
 Cette méthode est particulièrement utile si vous avez deux ou plusieurs ensembles de modules qui peuvent entrer en conflit les uns avec les autres.
-
 Pour créer une collection sauvegardée, il suffit de charger tous les modules souhaités, puis de taper ``module save`` afin d’enregistrer cet ensemble des modules comme votre ensemble par défaut.
-
 Si vous souhaitez avoir plusieurs collections des modules, il suffit d’attribuer un nom à la collection en tapant ``module save environnement_name`` .
 
 .. image:: /source/figures/img_lmod/Collections_modules.png
