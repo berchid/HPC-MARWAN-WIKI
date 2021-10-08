@@ -16,18 +16,21 @@ Liste de tous les modules chargés :
 
 La commande ``module list`` affiche tous les noms des modules et de leurs versions qui sont actuellement chargés dans votre environnement :
 
-.. image:: /figures/img_lmod/lmod1.png
+.. image:: /source/figures/img_lmod/lmod1.png
+     :width: 600
 
 Trouver les modules disponibles :
 *********************************
 
 Pour lister les modules disponibles sur le système, on utilise la commande ``module avail`` :
 
-.. image:: /figures/img_lmod/modules_disponibles.png
+.. image:: /source/figures/img_lmod/modules_disponibles.png
+    :width: 600
     
 Vous pouvez également lister tous les modules dont le nom contient une chaîne de caractères spécifique. Par exemple, pour trouver tous les fichiers de module Python, utilisez ``module avail python`` :
 
-.. image:: /figures/img_lmod/modules_disponibles2.png
+.. image:: /source/figures/img_lmod/modules_disponibles2.png
+    :width: 600
 
 Si un logiciel n'est pas disponible dans la liste des modules, n'hésitez pas à nous envoyer une demande d'installation du logiciel à  hpc@marwan.ma .
 
@@ -43,12 +46,13 @@ Pour charger un module, on utiliser la commande ``module add`` ou ``module load`
 
 Vous pouvez charger la version par défaut d’un module. Par exemple, pour charger la version par défaut du compilateur ``gcc`` :
 
-.. image:: /figures/img_lmod/Charger_moduledefaut.png
-
+.. image:: /source/figures/img_lmod/Charger_moduledefaut.png
+     :width: 600
 
 Vous pouvez également décharger / supprimer un module que vous avez déjà chargé, on utilisant les commande ``module unload``, ou ``module rm`` :
 
-.. image:: /figures/img_lmod/decharger_modules.png
+.. image:: /source/figures/img_lmod/decharger_modules.png
+    :width: 600
 
 Collections des modules :
 **************************
@@ -60,17 +64,20 @@ Pour créer une collection sauvegardée, il suffit de charger tous les modules s
 
 Si vous souhaitez avoir plusieurs collections des modules, il suffit d’attribuer un nom à la collection en tapant ``module save environnement_name`` .
 
-.. image:: /figures/img_lmod/Collections_modules.png
+.. image:: /source/figures/img_lmod/Collections_modules.png
+    :width: 600
 
 Pour charger la collection par défaut ou spécifiée, tapez respectivement ``module restore`` , ``module restore environnement_name`` .
 
-.. image:: /figures/img_lmod/charger_collectiondefaut.png
+.. image:: /source/figures/img_lmod/charger_collectiondefaut.png
+     :width: 600
 
 Pour modifier une collection, restaurer la collection, effectuer les changements souhaités en chargeant et/ou en déchargeant des modules et à sauvegarder sous le même nom.
 
 Un utilisateur peut lister les collections dont il dispose en tapant ``module savelist`` :
 
-.. image:: /figures/img_lmod/modifier_collection.png
+.. image:: /source/figures/img_lmod/modifier_collection.png
+    :width: 600
 
  
  
