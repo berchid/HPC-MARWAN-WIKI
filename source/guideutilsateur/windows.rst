@@ -25,11 +25,11 @@ Installer un client ssh ( Mobaxterm ou Putty ) et un client scp (Winscp, Filezil
 
     - Transfert de fichiers/dossiers du dossier personnel sur HPC vers la machine de l’utilisateur
 
-.. image:: /source/figuresimg_guideutilisateur/downloadfichier.png
+.. image:: /source/figures/img_guideutilisateur/downloadfichier.png
 
 
     - Changement de dossier courant (taper /data/<username>pour accéder au dossier de données et effectuer les transferts)
 
-.. image:: /source/figures/figures/img_guideutilisateur/Changementdossier.png
+.. image:: /source/figures/img_guideutilisateur/Changementdossier.png
  
 
