@@ -44,6 +44,6 @@ Puis lancer l’application:
 
     N’oubliez pas de libérer les ressources réservés (nœud de calcul) à la fin du calcul :
 
-    .. code-block:: bash
-        
+.. code-block:: bash
+
          $cancel 65467
