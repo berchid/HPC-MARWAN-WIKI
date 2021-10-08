@@ -31,5 +31,5 @@ Ou utiliser un client SCP graphique( exemple Filezilla )Commande d’installatio
     $sudo apt install filezilla
     
 .. image:: /source/figures/img_guideutilisateur/fiz.jpg
-  :width: 400
+  :width: 600
  
