@@ -15,7 +15,7 @@ Allocation de ressource:  allocation de nœud de calcul libre pour une durée de
 
     $squeue --job 65467 :JOBID donnée par la commande précédente.
  
- se connecter en mode ssh au noeud réservé au job donnée par la commande précédente.
+se connecter en mode ssh au noeud réservé au job donnée par la commande précédente.
 
 .. code-block:: bash
 
@@ -36,7 +36,7 @@ Puis lancer l’application:
     $arb
 
 
-.. image:: /figures/application-arb/ARB_interface.png
+.. image:: /source/figures/application-arb/ARB_interface.png
    :width: 800
 
 
