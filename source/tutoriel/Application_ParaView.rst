@@ -28,7 +28,7 @@ Une fois que les nœuds sont réservés (dans les prise d’écran, le nœud ré
 
     mpirun -np 1 pvserver --force-offscreen-rendering
 
-.. image:: /figures/app-paraview/0-runserver.png
+.. image:: /source/figures/app-paraview/0-runserver.png
 
 Par defaut Paraview utilise le port 11111
 
@@ -37,14 +37,16 @@ Créer un tunnel SSH:
 
 Afin de créer des tunnels SSH vers ou depuis votre système Windows, vous aurez besoin d'un logiciel supplémentaire. Nous vous recommandons d'utiliser Mobaxterm comme client SSH sur Windows. Les suivantes vous montrent comment vous pouvez créer un tunnel ssh entre votre machine, la machine hpc-login.marwan.ma et le nœud de calcul réservé auparavant (node4)
 
-.. image:: /figures/app-paraview/new_ssh_tunel.png
-.. image:: /figures/app-paraview/2-paramtunnel.png
+.. image:: /source/figures/app-paraview/new_ssh_tunel.png
+
+.. image:: /source/figures/app-paraview/2-paramtunnel.png
 
     - Dans le champs A : le port qui sera utilisé par votre machine local ( localhost ) , pour notre exemple de test on a gardé le port 11111
     - Dans le champs B : le nœud de login (hpc-login.marwan.ma), votre nom d’utilisateur et le port ssh (22)
     - Dans le champs C : le nœud réservé ( node04 pour le cas de test) et le port utilsé par paraview (11111)
-    - 
-.. image:: /figures/app-paraview/3-runTunnel.png
+  
+
+.. image:: /source/figures/app-paraview/3-runTunnel.png
 
 Connecter le client ParaView :
 -------------------------------
@@ -55,16 +57,17 @@ Cela ouvrira le dialogue de connexion. La première fois que vous vous connecter
 
 Entrez les valeurs comme indiqué ici pour configurer la connexion. Le "Nom" peut être tout ce que vous souhaitez utiliser pour identifier cette configuration à l'avenir.
 
-.. image:: /figures/app-paraview/1-configparaviewclient.png
+
+.. image:: /source/figures/app-paraview/1-configparaviewclient.png
 
 Vous choisissez le dossier de travail( par défaut , il va pointer sur le dossier /home/login, il faut monter à / puis choisir /data/login)
 
-.. image:: /figures/app-paraview/dossier_de_travail.png
+.. image:: /source/figures/app-paraview/dossier_de_travail.png
 
 Vous pouvez choisir un lecteur (OpenFoam) pour simuler vos données, voir la figure suivante :
 
-.. image:: /figures/app-paraview/3-paraview_choosereader.png
+.. image:: /source/figures/app-paraview/3-paraview_choosereader.png
  
 A la fin de vos simulation, vouliez arrêter le tunnel ssh et fermer la session ssh vers le nœud de calcul réservé (exit)
 
-.. image:: /figures/app-paraview/4-paraviewrunsimulation.png
+.. image:: /source/figures/app-paraview/4-paraviewrunsimulation.png
