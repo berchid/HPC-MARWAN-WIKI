@@ -34,7 +34,6 @@ Vous pouvez également lister tous les modules dont le nom contient une chaîne 
     :width: 800
 
 .. Note:: 
-
 Si un logiciel n'est pas disponible dans la liste des modules, n'hésitez pas à nous envoyer une demande d'installation du logiciel à  hpc@marwan.ma .
 
 Charger et décharger les modules :
