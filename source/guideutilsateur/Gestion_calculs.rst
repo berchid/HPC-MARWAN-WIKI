@@ -9,8 +9,9 @@ Le but premier de l'ordonnanceur de tâches est de réserver des ressources pour
 Le second objectif de l'ordonnanceur est de surveiller l'utilisation pour assurer une distribution équitable des ressources HPC dans le temps. Les politiques de partage équitable empêchent un utilisateur ou un groupe donné de monopoliser l'ensemble du cluster pendant des périodes prolongées si les calculs d'autres utilisateurs sont en attente dans la file d'attente.
 
 Sur Le cluster HPC-MARWAN, vous contrôlez vos calculs en utilisant un système de planification des tâches appelé Slurm qui gère et vous attribuer les ressources informatiques.
-.. Attention::
-Soyez un bon utilisateur du cluster. N'exécutez pas les calculs sur des nœuds de connexion (login), car ce-ci peut avoir un impact sur les sessions et la connectivité de tous les autres membres du cluster.
+
+.. Attention:: Soyez un bon utilisateur du cluster.
+     N'exécutez pas les calculs sur des nœuds de connexion (login), car ce-ci peut avoir un impact sur les sessions et la connectivité de tous les autres membres du cluster.
 
 Afin de faciliter l'utilisation de l'ordonnanceur, un certain nombre d'exemples de scripts relatifs aux applications installées sur HPC-MARWAN ont été créés (voir ici). En outre, des scripts simples ont été créés pour illustrer l'utilisation actuelle du HPC et pour aider à supprimer des calculs HPC.
 
