@@ -1,6 +1,7 @@
 ============================================
 Gestion des modules d’environnement
 ============================================
+
 Afin de répondre au mieux aux divers besoins de tous nos chercheurs, Les logiciels sur HPC-MARWAN sont principalement gérés par un système de modules ``lmod``. En chargeant et en commutant les modules, vous contrôlez les compilateurs, les bibliothèques et les logiciels disponibles.
 
 Lorsque vous compilez ou exécutez des programmes sur HPC-MARWAN, vous devez configurer les modules appropriés, pour charger votre compilateur et toutes les bibliothèques requises (par exemple, les bibliothèques numériques, les bibliothèques de format 
@@ -31,6 +32,8 @@ Vous pouvez également lister tous les modules dont le nom contient une chaîne 
 
 .. image:: /source/figures/img_lmod/modules_disponibles2.png
     :width: 800
+
+.. note:: 
 
 Si un logiciel n'est pas disponible dans la liste des modules, n'hésitez pas à nous envoyer une demande d'installation du logiciel à  hpc@marwan.ma .
 
