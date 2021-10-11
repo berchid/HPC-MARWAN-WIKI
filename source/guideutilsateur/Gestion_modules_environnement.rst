@@ -33,7 +33,7 @@ Vous pouvez également lister tous les modules dont le nom contient une chaîne 
 .. image:: /source/figures/img_lmod/modules_disponibles2.png
     :width: 800
 
-.. note:: 
+.. Note:: 
 
 Si un logiciel n'est pas disponible dans la liste des modules, n'hésitez pas à nous envoyer une demande d'installation du logiciel à  hpc@marwan.ma .
 
