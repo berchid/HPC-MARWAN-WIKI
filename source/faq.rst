@@ -25,8 +25,7 @@ En principe, l’utilisation du cluster de calcul haute performance se fait en `
 Une fois il a la main et fait les manipulations nécessaires, il ne doit pas quitter la session jusqu’à la fin de l’exécution. 
 Aussi la réservation de la ressource ne peut généralement pas dépasser quelques heures si le programme ne se termine pas avant, il sera arrété.
 
-.. Important::
-     Nous conseillons au chercheur d’utiliser le ``mode batch`` pour la partie lourde du travail,programme qui a besoin d’un temps de calcul important , 
+.. Note:: Nous conseillons au chercheur d’utiliser le ``mode batch`` pour la partie lourde du travail,programme qui a besoin d’un temps de calcul important , 
      et laisser le mode interactif pour le ``post-processing`` par exemple la visualisation d’un fichier output.
 
 	
@@ -83,11 +82,11 @@ Problèmes d’accès à l’HPC
 
 La majorité des problèmes d’accès à l’HPC-MARWAN, sont dus:
 
-   -Plusieurs tentative de connexion erronées.
+   * Plusieurs tentative de connexion erronées.
 
-   -Mot de passe erronée (erreur de frape/ ajout d’espace …).
+   * Mot de passe erronée (erreur de frape/ ajout d’espace …).
 
-   -Adresse IP public bloquée.
+   * Adresse IP public bloquée.
 
 Pour cela on demande aux utilisateurs de nous envoyer une capture d’écran du message d’erreur, et de nous envoyer leur adresse IP public https://www.whatismyip.com.
 
