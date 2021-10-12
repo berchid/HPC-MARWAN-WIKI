@@ -60,7 +60,7 @@ html_theme = 'sphinx_rtd_theme'
 
 html_static_path = ['_static']
 
-html_logo = "logo_HPC-MARWAN_1.png"
+html_logo = "_static/logo_HPC-MARWAN_1.png"
 html_theme_options = {
     'logo_only': True,
     'display_version': False,
