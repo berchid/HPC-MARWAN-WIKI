@@ -7,7 +7,7 @@ Le wiki HPC-MARWAN
 ******************
 
 
-Table of Contents
+Sommaire
 =================
 
 .. toctree::
