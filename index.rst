@@ -6,6 +6,7 @@
 Le wiki HPC-MARWAN
 ******************
 
+.. image:: source/figures/logo_HPC-MARWAN_1.png
 
 Sommaire
 =================
