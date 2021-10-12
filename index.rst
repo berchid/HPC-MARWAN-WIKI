@@ -7,6 +7,8 @@
 Le wiki HPC-MARWAN
 ******************
 
+Bienvenue sur le wiki  de calcul haute performance (HPC) du centre national pour le recherche scientifique et technique.
+
 
 Sommaire
 =================
