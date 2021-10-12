@@ -5,6 +5,7 @@ Questions Fréquemment Posées
 Principe de fonctionnement de HPC
 ------------------------------------------------
 
+
 En principe, l’utilisation du cluster de calcul haute performance se fait en ``mode batch`` .Ce qui signifie que le chercheur prépare ses fichiers inputs au préalable et lance le calcul via une commande ``sbatch``.
 
 - Le calcul atterrit par la suite dans une file d’attente contenant d’autres calculs appartenant aux autres utilisateurs du HPC ``squeue`` et le gestionnaire des calculs (SLURM pour notre cas) a pour rôle d’affecter une ressource libre au premier calcul de la file d’attente.
@@ -27,8 +28,10 @@ Nous conseillons au chercheur d’utiliser le ``mode batch`` pour la partie lour
 et laisser le mode interactif pour le ``post-processing`` par exemple la visualisation d’un fichier output.
 
 	
+	
 Que dois-je faire pour être autorisé à utiliser le cluster HPC-MARWAN ?
 -----------------------------------------------------------------------------------
+
 
 Afin d'accéder au Cluster HPC-MARWAN , il vous suffit de remplir ce formulaire , le signer et le retourner à l'équipe HPC-MARWAN par l'un des moyens suivants :
    
@@ -39,18 +42,22 @@ Afin d'accéder au Cluster HPC-MARWAN , il vous suffit de remplir ce formulaire 
 Une fois la demande reçue ,l'équipe vous contactera dans les plus brefs délais pour la création du compte d'accès.
 
 
+
 Ai-je besoin d'un programme spécial pour accéder au cluster HPC ?
 ----------------------------------------------------------------------
+
 
 Cela dépend du système d'exploitation que vous utilisez sur votre ordinateur privé et de la façon dont vous devez utiliser le système HPC. Vous avez besoin ``d'un client SSH`` pour pouvoir vous connecter au système.
 
 Si vous souhaitez utiliser des programmes avec une interface utilisateur graphique, vous pouvez installer le logiciel ``Mobaxtream`` (disponible pour Windows). Les instructions sont disponibles sous le rubrique Guide utilisateur.
 
 
+
 Combien d'espace disque puis-je utiliser ? 
 -----------------------------------------------------------------------
 
 Chaque utilisateur de HPC-MARWAN dispose d'un répertoire personnel de ``2Go`` (/home/login). Vous pouvez déposer vos fichiers volumineux sur /data/login,dont la limite et 2 To.
+
 
 
 Demander de l'aide
@@ -61,10 +68,12 @@ Le modèle de soutien du service HPC-MARWAN fournit une assistance personnelle i
 Si vous avez des questions ou si vous avez besoin d'aide pour utiliser le cluster, envoyez un e-mail à hpc@marwan.ma.
 
 
+
 Formulaire reçue incomplet
 ----------------------------------------
 
 Au cas de réception du formulaire incomplet,nous demandons à l’utilisateur de nous ré-envoyez le formulaire rempli et signé.
+
 
 
 Problèmes d’accès à l’HPC
@@ -79,6 +88,7 @@ La majorité des problèmes d’accès à l’HPC-MARWAN, sont dus:
    -Adresse IP public bloquée.
 
 Pour cela on demande aux utilisateurs de nous envoyer une capture d’écran du message d’erreur, et de nous envoyer leur adresse IP public https://www.whatismyip.com.
+
 
 
 
@@ -101,8 +111,12 @@ Afin de résoudre se problème, on vous propose d’utiliser un éditeur de fich
 .. image:: /source/figures/mobaxterm.png
 
 
+
 Combien de calculs je peux lancer?
 ------------------------------------------------------
 
+
 Le nombre de calculs qui peuvent être exécutés Etat Running simultanément pour chaque utilisateur est de 10 calculs. Le nombre de calcul pouvant être placés dans la queue Etat Pending est limité à 20 calculs.
+
+
 
