@@ -2,6 +2,9 @@ Questions Fréquemment Posées
 ====================================
 
 
+
+
+
 Principe de fonctionnement de HPC
 ------------------------------------------------
 
@@ -22,10 +25,9 @@ En principe, l’utilisation du cluster de calcul haute performance se fait en `
 Une fois il a la main et fait les manipulations nécessaires, il ne doit pas quitter la session jusqu’à la fin de l’exécution. 
 Aussi la réservation de la ressource ne peut généralement pas dépasser quelques heures si le programme ne se termine pas avant, il sera arrété.
 
-.. Hint::
-
-Nous conseillons au chercheur d’utiliser le ``mode batch`` pour la partie lourde du travail,programme qui a besoin d’un temps de calcul important , 
-et laisser le mode interactif pour le ``post-processing`` par exemple la visualisation d’un fichier output.
+.. Important::
+     Nous conseillons au chercheur d’utiliser le ``mode batch`` pour la partie lourde du travail,programme qui a besoin d’un temps de calcul important , 
+     et laisser le mode interactif pour le ``post-processing`` par exemple la visualisation d’un fichier output.
 
 	
 	
