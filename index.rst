@@ -1,4 +1,3 @@
-.. image:: source/figures/logo_HPC-MARWAN_1.png
 
 .. HPC-MARWAN documentation master file, created by
    sphinx-quickstart on Thu Sep 30 14:40:43 2021.
@@ -7,7 +6,7 @@
 
 Le wiki HPC-MARWAN
 ******************
-
+.. image:: source/figures/logo_HPC-MARWAN_1.png
 
 Sommaire
 =================
