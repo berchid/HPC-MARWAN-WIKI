@@ -15,3 +15,4 @@ Table of Contents
       
    Guide utilisateur <source/guideutilsateur/indexguide.rst>
    Tutoriel <source/tutoriel/tuto.rst>
+   FAQ <source/faq.rst>
