@@ -116,7 +116,8 @@ Combien de calculs je peux lancer?
 ------------------------------------------------------
 
 
-Le nombre de calculs qui peuvent être exécutés Etat Running simultanément pour chaque utilisateur est de 10 calculs. Le nombre de calcul pouvant être placés dans la queue Etat Pending est limité à 20 calculs.
+Le nombre de calculs qui peuvent être exécutés ``Etat Running`` simultanément pour chaque utilisateur est de ``10`` calculs. 
+Le nombre de calcul pouvant être placés dans la queue ``Etat Pending`` est limité à ``20`` calculs.
 
 
 
