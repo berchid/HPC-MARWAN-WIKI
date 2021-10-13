@@ -26,10 +26,7 @@ Pour avoir plus d’information sur le quota, exécuter la commande :
      +--------------+---------+---------+----------+-------+-------+-------+-------+-------+
 
 
-
-
-Ou ``blocks`` est la taille de votre espace /home/$USER en kilobyte, quota est le ``quota`` de l’espace /home/$USER définit par le système, ``limit`` est la taille maximum de /home/$USER qu’il ne peut
- jamais dépasser, ``grace`` est le compteur déclenché si ``blocks`` est égale ou supérieur à 2G
+Ou ``blocks`` est la taille de votre espace /home/$USER en kilobyte, quota est le ``quota`` de l’espace /home/$USER définit par le système, ``limit`` est la taille maximum de /home/$USER qu’il ne peut  jamais dépasser, ``grace`` est le compteur déclenché si ``blocks`` est égale ou supérieur à 2G
 
 L’utilisateur ne peut pas dépasser la limite de 3G et aura immédiatement une erreur ``Disk quota exceeded``
 
