@@ -1,8 +1,8 @@
 L'application ParaView
-======================
+====================================
 
-Ce tutoriel vous montre comment exécuter ParaView avec le client fonctionnant sur votre bureau et les tâches pvserver s'exécutant en parallèle sur le cluster HPC-Marwan. Ce tutoriel suppose que vous avez déjà installé une copie de ParaView sur votre pc . Si ce n'est pas le cas, veuillez consulter la page principale de ParaView pour les instructions de `téléchargement <https://www.paraview.org/>`_ (le lien de paraview client correspendant à la version installée sur HPC-Marwan est le suivant : `lien <https://www.paraview.org/paraview-downloads/download.php?submit=Download&version=v5.6&type=binary&os=Windows&downloadFile=ParaView-5.6.2-Windows-msvc2015-64bit.zip>`_). Si vous utilisez Windows, vous devrez installer un logiciel supplémentaire, par exemple  `Mobaxterm <https://mobaxterm.mobatek.net/>`_
- , pour configurer les tunnels SSH.
+Ce tutoriel vous montre comment exécuter ParaView avec le client fonctionnant sur votre bureau et les tâches pvserver s'exécutant en parallèle sur le cluster HPC-Marwan. Ce tutoriel suppose que vous avez déjà installé une copie de ParaView sur votre pc . Si ce n'est pas le cas, veuillez consulter la page principale de ParaView pour les instructions de `téléchargement <https://www.paraview.org/>`_ (le lien de paraview client correspendant à la version installée sur HPC-Marwan est le suivant : `lien <https://www.paraview.org/paraview-downloads/download.php?submit=Download&version=v5.6&type=binary&os=Windows&downloadFile=ParaView-5.6.2-Windows-msvc2015-64bit.zip>`_ ). Si vous utilisez Windows, vous devrez installer un logiciel supplémentaire, par exemple  `Mobaxterm <https://mobaxterm.mobatek.net/>`_  , pour configurer les tunnels SSH.
+
 
 Etapes de configuration client-serveur :
 ******************************************
@@ -10,7 +10,8 @@ Etapes de configuration client-serveur :
 Allocation de ressource :
 ---------------------------
 
-Sur la machine de connexion hpc-login.marwan.ma, utilisez la commande appropriée pour allouer un nœud de calcul libre (srun, salloc ). Vous devez utiliser les différents d'option pour spécifier les détails de la commande tels que le nombre de nœuds, les limites de temps, la partition des nœuds à utiliser. Par exemple :
+
+Sur la machine de connexion hpc-login.marwan.ma, utilisez la commande appropriée pour allouer un nœud de calcul libre (srun, salloc ). Vous devez utiliser les différents d'option pour spécifier les détails de la commande tels que le nombre de nœuds, les limites de temps, la partition des nœuds à utiliser. Par exemple:
 
 .. code-block:: bash
 
