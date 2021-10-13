@@ -32,7 +32,7 @@ Vu le fait que l’application NetLogo fonctionne en mode graphique, on vous dem
  
 .. image:: /source/figures/app-netlogo/NetLogo_interface_2.png
 
-.. warning:: 
+.. Attention:: 
     N’oubliez pas de libérer les ressources réservés (nœud de calcul) à la fin du calcul :
 
     .. code-block:: bash
