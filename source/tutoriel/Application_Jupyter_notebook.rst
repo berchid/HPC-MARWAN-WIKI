@@ -63,8 +63,8 @@ Ouvrir un terminal et lancer la commande suivante:
 .. image:: /source/figures/app-jupyter-notebook/6.png
  
 
-#. Une fois le tunnel ssh démarré, vous pouvez vous connecter via le navigateur de votre machine local (de préférence Firefox ou Chrome) après avoir fourni le token généré (par exemple : db3648aa8efc526c89239523acda3a166ce17389fab97c94), voir la figure suivante :
+Une fois le tunnel ssh démarré, vous pouvez vous connecter via le navigateur de votre machine local (de préférence Firefox ou Chrome) après avoir fourni le token généré (par exemple : db3648aa8efc526c89239523acda3a166ce17389fab97c94), voir la figure suivante :
 
 .. image:: /source/figures/app-jupyter-notebook/7.png
 
-#. Pour terminer l’allocation des ressources (node11 dans l’exemple), il suffit d’arrêter le notebook (ctrl –c) et de faire un exit du nœud réservé.
+Pour terminer l’allocation des ressources (node11 dans l’exemple), il suffit d’arrêter le notebook (ctrl –c) et de faire un exit du nœud réservé.
