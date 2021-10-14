@@ -15,8 +15,8 @@ Sur Le cluster HPC-MARWAN, vous contrôlez vos calculs en utilisant un système 
 
 Afin de faciliter l'utilisation de l'ordonnanceur, un certain nombre d'exemples de scripts relatifs aux applications installées sur HPC-MARWAN ont été créés (voir ici). En outre, des scripts simples ont été créés pour illustrer l'utilisation actuelle du HPC et pour aider à supprimer des calculs HPC.
 
-Commandes communes de Slurm :
-*****************************
+Commandes communes de Slurm 
+*********************************
 
 Soumettre un script exécutable au système de mise en file d'attente :
 
@@ -64,8 +64,8 @@ Afficher les informations sur les nœuds et les partitions de Slurm.
       :width: 800
 
 
-Exécution d'un calcul batch :
-*****************************
+Exécution d'un calcul batch 
+*********************************
 
 Afin de lancer un job sur l’HPC, vous êtes invités à préparer un script slurm `https://slurm.schedmd.com/sbatch.html <https://slurm.schedmd.com/sbatch.html>`_ compatible avec l’application que vous souhaitez utiliser. Ce script shell appelé ``script de soumission`` enveloppe votre travail. Un script de soumission se compose de trois parties:
 
@@ -113,8 +113,8 @@ Pour vérifier l'état de notre travail, nous vérifions la file d'attente en ut
     $ squeue -u yourUsernameJOBID USER ACCOUNT NAME ST REASON START_TIME TIME TIME_LEFT NODES 
     CPUS36856 yourUsername yourAccount example-job.sh R None 2017-07-01T16:47:02 0:11 59:49 1 1
 
-Les directives d’un script :
-****************************
+Les directives d’un script
+************************************
 
 Comme le montre l'exemple ci-dessus, les "directives" sont composées de ``#SBATCH`` suivi des options Slurm. Les options les plus couramment utilisées sont les suivantes :
 
@@ -156,8 +156,8 @@ Exemple de script run.sl pour les applications installer sur HPC :
 
 Vous trouvez sur le lien suivant des exemples de script que vous pouvez utiliser ou s’inspirer d’eux pour écrire votre script slurm :`https://github.com/rahimbouchra/hpc_samples <https://github.com/rahimbouchra/hpc_samples>`_ .
 
-Exemple de script java run.sl :
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Exemple de script java run.sl 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code-block:: bash 
 
@@ -182,8 +182,8 @@ Exemple de script java run.sl :
         java TestHpc
         echo "Done"
 
-Example de Script python run.sl:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Example de Script python run.sl
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .. code-block:: bash 
 
         #!/bin/bash
@@ -208,8 +208,8 @@ Example de Script python run.sl:
 
 Puis le lancer avec ``sbatch run.sl``
 
-Interactive jobs :
-------------------
+Interactive jobs 
+---------------------------
 
 La soumission des jobs à Slurm se fait soit en mode interactif soit en mode batch, Les jobs interactifs permettent à un utilisateur d'interagir avec des applications en temps réel dans l’environnement HPC. Les utilisateurs peuvent exécuter des applications d'interface utilisateur graphique (GUI), exécuter des scripts ou exécuter d'autres commandes directement sur un nœud de calcul.
 
