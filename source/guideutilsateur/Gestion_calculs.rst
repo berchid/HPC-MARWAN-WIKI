@@ -1,6 +1,6 @@
-======================
+=====================================
 Gestion des calculs
-======================
+====================================
 
 Un système HPC peut avoir des milliers de nœuds et des milliers d'utilisateurs. Comment décider qui obtient quoi et quand ? Comment s'assurer qu'une tâche est exécutée avec les ressources dont elle a besoin ? Cette tâche est traitée par un type de logiciel spécial appelé ``scheduler`` ,sur un système HPC, l'ordonnanceur gère les tâches qui sont exécutées où et quand.
 
@@ -151,8 +151,8 @@ Comme le montre l'exemple ci-dessus, les "directives" sont composées de ``#SBAT
 
 Des options supplémentaires sont disponibles dans la documentation officielle de Slurm. Si vous ne spécifiez pas de partition, votre job sera placé dans la partition par défaut du cluster HPC-MARWAN.
 
-Exemple de script run.sl pour les applications installer sur HPC :
------------------------------------------------------------------
+Exemple de script run.sl pour les applications installer sur HPC 
+------------------------------------------------------------------------
 
 Vous trouvez sur le lien suivant des exemples de script que vous pouvez utiliser ou s’inspirer d’eux pour écrire votre script slurm :`https://github.com/rahimbouchra/hpc_samples <https://github.com/rahimbouchra/hpc_samples>`_ .
 
