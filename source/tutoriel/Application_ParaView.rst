@@ -4,10 +4,10 @@ L'application ParaView
 Ce tutoriel vous montre comment exécuter ParaView avec le client fonctionnant sur votre bureau et les tâches pvserver s'exécutant en parallèle sur le cluster HPC-Marwan. Ce tutoriel suppose que vous avez déjà installé une copie de ParaView sur votre pc . Si ce n'est pas le cas, veuillez consulter la page principale de ParaView pour les instructions de `téléchargement <https://www.paraview.org/>`_ (le lien de paraview client correspendant à la version installée sur HPC-Marwan est le suivant : `lien <https://www.paraview.org/paraview-downloads/download.php?submit=Download&version=v5.6&type=binary&os=Windows&downloadFile=ParaView-5.6.2-Windows-msvc2015-64bit.zip>`_ ). Si vous utilisez Windows, vous devrez installer un logiciel supplémentaire, par exemple  `Mobaxterm <https://mobaxterm.mobatek.net/>`_  , pour configurer les tunnels SSH.
 
 
-Etapes de configuration client-serveur :
+Etapes de configuration client-serveur 
 ******************************************
 
-Allocation de ressource :
+Allocation de ressource 
 ---------------------------
 
 
@@ -19,7 +19,7 @@ Sur la machine de connexion hpc-login.marwan.ma, utilisez la commande approprié
 
  L’option ``defq`` vous permet d’utiliser la partition par defaut (2h)
 
-Démarrer le(s) serveur(s):
+Démarrer le(s) serveur(s)
 ---------------------------
 
 Une fois que les nœuds sont réservés (dans les prise d’écran, le nœud réservé est : node4 ), vous serez connecté à une ligne de commande interactive sur le premier nœud du travail par lots. Charger le module paraview, et lancer le serveur pvserver souhaitées. Par exemple :
@@ -33,7 +33,7 @@ Une fois que les nœuds sont réservés (dans les prise d’écran, le nœud ré
 
 Par defaut Paraview utilise le port 11111
 
-Créer un tunnel SSH:
+Créer un tunnel SSH
 ---------------------
 
 Afin de créer des tunnels SSH vers ou depuis votre système Windows, vous aurez besoin d'un logiciel supplémentaire. Nous vous recommandons d'utiliser Mobaxterm comme client SSH sur Windows. Les suivantes vous montrent comment vous pouvez créer un tunnel ssh entre votre machine, la machine hpc-login.marwan.ma et le nœud de calcul réservé auparavant (node4)
@@ -49,7 +49,7 @@ Afin de créer des tunnels SSH vers ou depuis votre système Windows, vous aurez
 
 .. image:: /source/figures/app-paraview/3-runTunnel.png
 
-Connecter le client ParaView :
+Connecter le client ParaView 
 -------------------------------
 
 Une fois que vous avez un pvserver en cours d'exécution sur le cluster, vous pouvez vous connecter à partir de votre client de bureau. Ouvrez ParaView sur votre bureau (si vous ne l'avez pas déjà fait fonctionner). Ensuite, cliquez sur l'icône Connexion, ou sélectionnez Fichier -> Connexion dans les menus.
