@@ -32,7 +32,7 @@ L’utilisateur ne peut pas dépasser la limite de 3G et aura immédiatement une
 
 Au moment où l’utilisateur dépasse 2G sur son espace /home/$USER 2G, un compteur de ``14 jours`` se déclenche et décrémente chaque jour. Il s’agit d’un délai donné à l’utilisateur afin de lui permettre de nettoyer son espace /home. A la fin de cette période, si la taille de /home/$USER est toujours supérieure à 2G, le système déclenchera une erreur de dépassement de quota disque ``Disk quota exceeded``
 
-Commandes Utiles :
+Commandes Utiles 
 ******************
 
 Pour vérifier le contenu des dossiers :
