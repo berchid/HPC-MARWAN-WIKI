@@ -1,7 +1,7 @@
 Accès à l’HPC via Linux
 =============================
 
-Via le Terminal :
+Via le Terminal 
 *****************
 
 Commande ssh et commande scp ou installer un client (Filezilla) pour le transfert des fichiers
@@ -10,14 +10,14 @@ Commande ssh et commande scp ou installer un client (Filezilla) pour le transfer
     
     $ssh -X @hpc-login.marwan.ma ( remplacer par votre login )
 
-Transfert de fichier :
+Transfert de fichier 
 *********************
 
 .. code-block:: bash
 
      $scp @hpc-login.marwan.ma:/home// $scp @hpc-login.marwan.ma:/home//
 
-Transfert de dossier :
+Transfert de dossier 
 **********************
 
 .. code-block:: bash
