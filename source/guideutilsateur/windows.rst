@@ -18,7 +18,7 @@ Acces ssh avec MobaXterm
 .. image:: /source/figures/img_guideutilisateur/Mobaxterm.png
     :width: 500
     
-Transfert de fichiers (scp) avec Mobaxterm :
+Transfert de fichiers (scp) avec Mobaxterm 
 ************************************************
 
     - Transfert de fichiers/dossiers de la machine de l’utilisateur vers le dossier personnel sur HPC
