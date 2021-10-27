@@ -12,7 +12,7 @@ Ces fichiers de module vous permettent de spécifier facilement quelles versions
 
 Pour plus d'informations, consultez la documentation en ligne sur le système de module d’environnement : `https://lmod.readthedocs.io/en/latest/010_user.html <https://lmod.readthedocs.io/en/latest/010_user.html>`_
 
-Liste de tous les modules chargés :
+Liste de tous les modules chargés 
 ************************************
 
 La commande ``module list`` affiche tous les noms des modules et de leurs versions qui sont actuellement chargés dans votre environnement :
@@ -20,7 +20,7 @@ La commande ``module list`` affiche tous les noms des modules et de leurs versio
 .. image:: /source/figures/img_lmod/lmod1.png
      :width: 800
 
-Trouver les modules disponibles :
+Trouver les modules disponibles 
 *********************************
 
 Pour lister les modules disponibles sur le système, on utilise la commande ``module avail`` :
@@ -36,7 +36,7 @@ Vous pouvez également lister tous les modules dont le nom contient une chaîne 
 .. Note:: 
 Si un logiciel n'est pas disponible dans la liste des modules, n'hésitez pas à nous envoyer une demande d'installation du logiciel à  hpc@marwan.ma .
 
-Charger et décharger les modules :
+Charger et décharger les modules 
 ***********************************
 
 Pour charger un module, on utiliser la commande ``module add`` ou ``module load`` . Par exemple, si vous avez trouvé et souhaitez charger la version 3.7.4 de Python, exécutez la commande :
@@ -56,7 +56,7 @@ Vous pouvez également décharger / supprimer un module que vous avez déjà cha
 .. image:: /source/figures/img_lmod/decharger_modules.png
     :width: 800
 
-Collections des modules :
+Collections des modules 
 **************************
 
 Les utilisateurs peuvent créer des collections des modules, qui contiennent la liste des modules à charger chaque fois que vous vous connectez au cluster.
