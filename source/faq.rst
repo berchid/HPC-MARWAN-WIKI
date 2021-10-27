@@ -31,7 +31,7 @@ Aussi la réservation de la ressource ne peut généralement pas dépasser quelq
 
 	
 	
-Que dois-je faire pour être autorisé à utiliser le cluster HPC-MARWAN ?
+Que dois-je faire pour être autorisé à utiliser le cluster HPC-MARWAN?
 -----------------------------------------------------------------------------------
 
 
@@ -45,7 +45,7 @@ Une fois la demande reçue ,l'équipe vous contactera dans les plus brefs délai
 
 
 
-Ai-je besoin d'un programme spécial pour accéder au cluster HPC ?
+Ai-je besoin d'un programme spécial pour accéder au cluster HPC?
 ----------------------------------------------------------------------
 
 
@@ -55,7 +55,7 @@ Si vous souhaitez utiliser des programmes avec une interface utilisateur graphiq
 
 
 
-Combien d'espace disque puis-je utiliser ? 
+Combien d'espace disque puis-je utiliser? 
 -----------------------------------------------------------------------
 
 Chaque utilisateur de HPC-MARWAN dispose d'un répertoire personnel de ``2Go`` (/home/login). Vous pouvez déposer vos fichiers volumineux sur /data/login,dont la limite et 2 To.
