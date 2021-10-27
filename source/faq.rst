@@ -114,7 +114,7 @@ Afin de résoudre se problème, on vous propose d’utiliser un éditeur de fich
 
 
 
-Combien de calculs je peux lancer?
+Combien de calculs je peux lancer ?
 ------------------------------------------------------
 
 
